@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 import os
 
-DATABASE_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'bonecos_7ds.db')
+DATABASE_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', '7ds_characters.db')
 
 def get_connection():
     conn = sqlite3.connect(DATABASE_PATH)

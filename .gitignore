@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtualenv
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+
+
+# Dados temporários / logs
+*.log
+*.tmp
+*.bak
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/*.json
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos ZIP e binários
+*.zip
+*.tar
+*.tar.gz
+*.exe
+
+# Jupyter (caso use em algum momento)
+.ipynb_checkpoints/
